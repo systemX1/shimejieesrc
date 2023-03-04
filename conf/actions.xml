@@ -4289,7 +4289,7 @@
 		</Action>
 		
 		<Action Name="NewActionsEnd" Type="Sequence" Loop="false">
-			<ActionReference Name="WaveHandImplEnd" Duration="${750}" />
+			<ActionReference Name="WaveHandImplEnd" Duration="${50 * 5}" />
 		</Action>
 
 		<Action Name="LieDown" Type="Sequence" Loop="false">
@@ -4300,6 +4300,7 @@
 			<ActionReference Name="SleepingWithSound1" Duration="${64}" />
 			<ActionReference Name="Sleeping" Duration="${2560}" />
 			<ActionReference Name="StandWithSound1" Duration="${64}" />
+            <ActionReference Name="Stand" Duration="${150+Math.random()*50}" />
 		</Action>
 
 		<Action Name="SitWhileDanglingLegs" Type="Sequence" Loop="false">

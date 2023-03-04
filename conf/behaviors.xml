@@ -70,7 +70,7 @@
 		
 		<!-- On the Floor -->
 		<Condition Condition="#{mascot.environment.floor.isOn(mascot.anchor) || mascot.environment.activeIE.topBorder.isOn(mascot.anchor)}">
-			<Behavior Name="StandUp" Frequency="600" Hidden="true"/>
+			<Behavior Name="StandUp" Frequency="200" Hidden="true"/>
 			<Behavior Name="SitDown" Frequency="600">
 				<NextBehavior Add="true">
 					<BehaviorReference Name="SitWhileDanglingLegs" Frequency="200" />
