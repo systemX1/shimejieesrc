@@ -3756,7 +3756,7 @@
 		<Action Name="Bouncing2" Type="Animate" BorderType="Floor">
 			<Animation>
 				<Pose Image="/j2_00.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
-				<Pose Image="/j2_01.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
+				<Pose Image="/j2_01.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" Sound="/变聪明啦~.wav" />
 				<Pose Image="/j2_02.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
 				<Pose Image="/j2_03.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
 				<Pose Image="/j2_04.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
