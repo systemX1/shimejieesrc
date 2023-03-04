@@ -3981,7 +3981,7 @@
 				<Pose Image="/sh_13.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_14.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_15.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
-				<Pose Image="/sh_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/sh_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/好痛啊。.wav" />
 				<Pose Image="/sh_01.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_02.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_03.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
@@ -3997,7 +3997,7 @@
 				<Pose Image="/sh_13.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_14.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_15.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
-				<Pose Image="/sh_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/好痛啊。.wav" />
+				<Pose Image="/sh_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_01.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_02.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_03.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
