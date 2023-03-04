@@ -4067,7 +4067,7 @@
 				<Pose Image="/sh_03.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_04.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_05.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
-				<Pose Image="/sh_06.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/sh_06.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/这样不太明智….wav" />
 				<Pose Image="/sh_07.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_08.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_09.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
@@ -4077,7 +4077,6 @@
 				<Pose Image="/sh_13.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_14.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/sh_15.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
-				<Pose Image="/sh_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/这样不太明智….wav" />
 			</Animation>
 			
 			<Animation Condition="#{FootX &lt; mascot.environment.cursor.x-50}">
