@@ -2065,32 +2065,7 @@
                 <Pose Image="/mm_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 			</Animation>
 		</Action>
-        <Action Name="StickTongueOutImplWithSound4" Type="Stay" BorderType="Floor">
-			<Animation>
-				<Pose Image="/mm_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/morning.wav" />
-				<Pose Image="/mm_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-				<Pose Image="/mm_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-                <Pose Image="/mm_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
-			</Animation>
-		</Action>
-
+        
         <Action Name="PlayOnTheSwingImpl" Type="Stay" BorderType="Floor">
 			<Animation>
                 <Pose Image="/swingbegin_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -4460,8 +4435,8 @@
 		<Action Name="LieDownWithSound1" Type="Sequence" Loop="false">
 			<ActionReference Name="SleepingWithSound1" Duration="${64}" />
 			<ActionReference Name="Sleeping" Duration="${2560}" />
-			<ActionReference Name="StickTongueOutImplWithSound4" Duration="${42}" />
-            <ActionReference Name="Stand" Duration="${500+Math.random()*250}" />
+			<ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
+            <ActionReference Name="NewActionsEnd" />
 		</Action>
 
 		<Action Name="SitWhileDanglingLegs" Type="Sequence" Loop="false">
@@ -4945,7 +4920,9 @@
 			<ActionReference Name="Divided" />
 			<ActionReference Name="WalkAlongWorkAreaFloor" />
             <ActionReference Name="SleepingWithSound1" Duration="${64}" /> 
-			<ActionReference Name="Sleeping" Duration="${3000+Math.random()*7000}" /> <!-- 29:15 32:29 36:00 39:10  6min40s 400s 25fps -->
+			<ActionReference Name="Sleeping" Duration="${1000+Math.random()*7000}" /> <!-- 29:15 32:29 36:00 39:10  6min40s 400s 25fps -->
+            <ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
+            <ActionReference Name="NewActionsEnd" />
 		</Action>
 		
 		<Action Name="SplitIntoTwo2" Type="Sequence">
