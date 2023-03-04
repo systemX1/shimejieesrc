@@ -3469,8 +3469,30 @@
 				<Pose Image="/d_16.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
 				<Pose Image="/d_17.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
 			</Animation>
-		</Action>		
-		
+		</Action>
+		<Action Name="GrabWallWithSound4" Type="Stay" BorderType="Wall">
+			<Animation>
+				<Pose Image="/d_00.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_01.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" Sound="/变聪明啦~.wav" />
+				<Pose Image="/d_02.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_03.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_04.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_05.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_06.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_07.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_08.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_09.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_10.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_11.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_12.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_13.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_14.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_15.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_16.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+				<Pose Image="/d_17.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+
 		<Action Name="ClimbWall" Type="Move" BorderType="Wall">
 			<Animation Condition="#{TargetY &lt; mascot.anchor.y}">
 				<Pose Image="/p_00.png" ImageAnchor="0,128" Velocity="0,-1" Duration="2" />
@@ -3756,7 +3778,7 @@
 		<Action Name="Bouncing2" Type="Animate" BorderType="Floor">
 			<Animation>
 				<Pose Image="/j2_00.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
-				<Pose Image="/j2_01.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" Sound="/变聪明啦~.wav" />
+				<Pose Image="/j2_01.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" Sound="/就像蕈猪的脑子一样空空如也.wav" />
 				<Pose Image="/j2_02.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
 				<Pose Image="/j2_03.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
 				<Pose Image="/j2_04.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
@@ -4050,9 +4072,10 @@
 			<Action Type="Select">
 				<Action Type="Sequence" Condition="${mascot.environment.floor.isOn(mascot.anchor) || mascot.environment.activeIE.topBorder.isOn(mascot.anchor) }">
 					<ActionReference Name="Bouncing2" />
-					<ActionReference Name="Stand" Duration="${100+Math.random()*100}" />
+					<ActionReference Name="Stand" Duration="${100+Math.random()*400}" />
 				</Action>
-				<ActionReference Name="GrabWall" Duration="${100+Math.random()*100}" />
+				<ActionReference Name="GrabWallWithSound4" Duration="${36}" />
+                <ActionReference Name="GrabWall" Duration="${500+Math.random()*500}" />
 			</Action>
 		</Action>
 

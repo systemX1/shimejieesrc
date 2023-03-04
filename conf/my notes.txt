@@ -84,6 +84,11 @@ LandWithSound1 = 着陆
 LieDown = 睡觉        
 LieDownWithSound1 = 睡觉(hide)     听见了吗？天空正对万物轻语：「睡觉时间到了哦。」.wav  morning.wav
 
+GrabWallWithSound4
+变聪明啦~.wav
+Bouncing2
+就像蕈猪的脑子一样空空如也.wav
+
 Sound="/.wav"
 
 
