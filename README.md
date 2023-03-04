@@ -2,7 +2,7 @@
 
 ## Platform
 
-jdk-8
+jdk-8 [Java Archive Downloads - Java SE 8](https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html)
 
 ## Dependency
 
