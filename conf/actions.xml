@@ -4262,6 +4262,7 @@
 		<Action Name="Fly5TimeAndLand" Type="Sequence" Loop="false">
 			<ActionReference Name="Fly" />
 			<ActionReference Name="FlyingWithSound2" Duration="${64}" />
+            <ActionReference Name="FlyingWithSound1" Duration="${64}" />
 			<ActionReference Name="Fly" />
 			<ActionReference Name="Fly" />
 			<ActionReference Name="Fly" />
