@@ -4073,17 +4073,17 @@
 		</Action>
 		
 		<Action Name="Goodmorning" Type="Sequence" Loop="false">
-			<ActionReference Name="WaveHandImplWithSound1" Duration="${60}" />
+			<ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
 		<Action Name="NapTime" Type="Sequence" Loop="false">
-			<ActionReference Name="WaveHandImplWithSound2" Duration="${60}" />
+			<ActionReference Name="WaveHandImplWithSound2" Duration="${58}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
 		<Action Name="Sunset" Type="Sequence" Loop="false">
-			<ActionReference Name="WaveHandImplWithSound3" Duration="${60}" />
+			<ActionReference Name="WaveHandImplWithSound3" Duration="${58}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
