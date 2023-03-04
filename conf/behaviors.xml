@@ -283,7 +283,7 @@
 			
             <Behavior Name="LieDownWithSound1"            Frequency="300" Hidden="true" Condition="#{mascot.totalCount &lt;= 5}" />
             <Behavior Name="LieDownWithSound1"            Frequency="200" Hidden="true"}" />
-			<Behavior Name="LieDown" Frequency="100">
+			<Behavior Name="LieDown" Frequency="100" />
 				<NextBehavior Add="true">
 					<BehaviorReference Name="LieDownWithSound1" Frequency="1000" />
 					<BehaviorReference Name="FlyToCeiling" Frequency="100" />
