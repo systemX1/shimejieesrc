@@ -4574,18 +4574,18 @@
 
 		<Action Name="WalkLeftAlongFloorAndSit" Type="Sequence" Loop="false">
 			<ActionReference Name="Walk" TargetX="${mascot.environment.workArea.left+100+Math.random()*300}" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
+			<ActionReference Name="Stand" Duration="${64}" />
 			<ActionReference Name="Look" LookRight="true" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
-			<ActionReference Name="SitDown" Duration="${500+Math.random()*1000}" />
+			<ActionReference Name="Stand" Duration="${64}" />
+			<ActionReference Name="SitDown"/>
 		</Action>
 
 		<Action Name="WalkRightAlongFloorAndSit" Type="Sequence" Loop="false">
 			<ActionReference Name="Walk" TargetX="${mascot.environment.workArea.right-100-Math.random()*300}" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
+			<ActionReference Name="Stand" Duration="${64}" />
 			<ActionReference Name="Look" LookRight="false" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
-			<ActionReference Name="SitDown" Duration="${500+Math.random()*1000}" />
+			<ActionReference Name="Stand" Duration="${64}" />
+			<ActionReference Name="SitDown"/>
 		</Action>
 
 		<Action Name="GrabWorkAreaBottomLeftWall" Type="Sequence" Loop="false">
@@ -4600,18 +4600,18 @@
 
 		<Action Name="WalkLeftAndSit" Type="Sequence" Loop="false">
 			<ActionReference Name="Run" TargetX="${mascot.environment.workArea.left+100+Math.random()*300}" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
+			<ActionReference Name="Stand" Duration="${64}" />
 			<ActionReference Name="Look" LookRight="true" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
-			<ActionReference Name="SitDown" Duration="${500+Math.random()*1000}" />
+			<ActionReference Name="Stand" Duration="${64}" />
+			<ActionReference Name="SitDown"/>
 		</Action>
 
 		<Action Name="WalkRightAndSit" Type="Sequence" Loop="false">
 			<ActionReference Name="Run" TargetX="${mascot.environment.workArea.right-100-Math.random()*300}" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
+			<ActionReference Name="Stand" Duration="${64}" />
 			<ActionReference Name="Look" LookRight="false" />
-			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
-			<ActionReference Name="SitDown" Duration="${500+Math.random()*1000}" />
+			<ActionReference Name="Stand" Duration="${64}" />
+			<ActionReference Name="SitDown"/>
 		</Action>
 
 		<Action Name="WalkAndGrabBottomLeftWall" Type="Sequence" Loop="false">
