@@ -4300,7 +4300,7 @@
 			<ActionReference Name="SleepingWithSound1" Duration="${64}" />
 			<ActionReference Name="Sleeping" Duration="${2560}" />
 			<ActionReference Name="StandWithSound1" Duration="${64}" />
-            <ActionReference Name="Stand" Duration="${150+Math.random()*50}" />
+            <ActionReference Name="Stand" Duration="${500+Math.random()*250}" />
 		</Action>
 
 		<Action Name="SitWhileDanglingLegs" Type="Sequence" Loop="false">
@@ -4783,6 +4783,7 @@
 			<ActionReference Name="Look" />
 			<ActionReference Name="Divided" />
 			<ActionReference Name="WalkAlongWorkAreaFloor" />
+            <ActionReference Name="SleepingWithSound1" Duration="${64}" /> 
 			<ActionReference Name="Sleeping" Duration="${3000+Math.random()*7000}" /> <!-- 29:15 32:29 36:00 39:10  6min40s 400s 25fps -->
 		</Action>
 		
