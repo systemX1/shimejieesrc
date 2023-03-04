@@ -1,0 +1,21 @@
+# Shemeji
+
+## Platform
+
+jdk-8
+
+## Dependency
+
+Windows Vista or higher
+
+## Reference
+
+[GitHub - ChaozhongLiu/DyberPet\_GenshinImpact](https://github.com/ChaozhongLiu/DyberPet_GenshinImpact) by [@栎曦_Nuo](https://space.bilibili.com/14004864), [ChaozhongLiu · GitHub](https://github.com/ChaozhongLiu)
+
+[kilkakon.com/shimeji](https://kilkakon.com/shimeji/)
+
+[原神语音收录-纳西妲\_哔哩哔哩bilibili\_原神](https://www.bilibili.com/video/BV1514y1W7JL/) by [@谁人不识猫](https://space.bilibili.com/5153102/)
+
+## LICENSE
+
+GPLv3. See [LICENSE](LICENSE).

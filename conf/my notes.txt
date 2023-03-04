@@ -1,0 +1,255 @@
+Sound="/.wav"
+
+导入DyberPet_GenshinImpact
+HugAranara = 抱兰那罗     b, play  WPS图片缩放80%，ImageAnchor="104,200"
+HugAranaraWithSound1    快去避雨吧，小心头顶上长出蘑菇哦。.wav
+HugAranaraWithSound2    记住你了。.wav
+HugAranaraWithSound3    不知道干什么的话，要不要我带你去转转呀？.wav
+
+Heart = 心               hc           
+HeartWithSound1 = 心     hc           好奇心值得嘉奖哦。.wav 
+HeartWithSound2 = 心     hc           天气真好啊，暖洋洋的，我们的身边马上也要热闹起来了。.wav
+
+WaveHand = 挥手          hs -> wavehand         后接 hx0 hx24
+WaveHandWithSound4 = 挥手      hs -> wavehand      来我家做客吧~.wav
+WaveHandWithSound5 = 挥手      hs -> wavehand      我等你好久啦。.wav     
+WaveHandWithSound6 = 挥手      hs -> wavehand      知识，与你分享。.wav
+
+Surprised = 惊讶         bhc         11 - 24重复
+SurprisedWithSound1 = 惊讶         bhc        换个策略吧。.wav
+SurprisedWithSound2 = 惊讶         bhc        那些海鲜，它们在无边无际的黑暗中出生，成长在我所不了解的海底深处。要我吃下它们，就好像要我咽下一团脏兮兮的乌云一样。.wav
+SurprisedWithSound3 = 惊讶         bhc        …怎么说呢？打比方的话，你不会给狗狗喝蔬菜汁吧？.wav
+SurprisedWithSound4 =                         这样不太明智….wav
+
+AbilityQ = Q            d -> AbilityQ
+AbilityQWithSound1 = Q            d -> AbilityQ       思路变得更开阔了，天空和大海都能装进去。.wav
+AbilityQWithSound2 = Q            d -> AbilityQ       此即智慧之殿堂。.wav
+AbilityQWithSound3 = Q                                让我来想想办法。.wav
+
+AbilityE = E            ee eing eend        嘿！.wav       
+AbilityEWithSound1 = E(hide)         ee eing eend     记住你了。.wav  
+AbilityEWithSound2 = E(hide)         ee eing eend     全都看见咯。.wav   
+AbilityEWithSound3 = E(hide)         ee eing eend     手牵手~.wav
+
+StickTongueOut = 吐舌    mm       
+StickTongueOutWithSound1   没去过的地方还有很多呢。.wav
+StickTongueOutWithSound2   快去睡吧，放心，我已经为你准备好甜甜的梦啦。.wav
+StickTongueOutWithSound3   有你想要的吗？.wav
+
+PlayOnTheSwing = 荡秋千2  qq qing qend -> swingbegin swing swingend         
+PlayOnTheSwingWithSound1          天气真好啊，暖洋洋的，我们的身边马上也要热闹起来了。.wav
+PlayOnTheSwingWithSound2          宫殿里可不会起风呢…哦，抱歉，对你来说是理所当然的知识吧。.wav
+
+PutPalmsTogether = 双手合拢   yb         
+PutPalmsTogetherWithSound1   是源自谁的馈赠呢？.wav
+PutPalmsTogetherWithSound2   又可以增长见识了。.wav
+PutPalmsTogetherWithSound3  又有心事吗？我来陪你一起想吧。.wav
+
+Goodmoring = 早上好        morning.wav
+NapTime = 午休时间         naptime.wav
+Sunset = 太阳落山     sunset.wav
+HoldOntoWallManually = 在墙上待机          你知道吗？雷鸣是生命的前奏，很快这片大地就会充满生机。.wav
+有你想要的吗？.wav
+当然是枣椰蜜糖了，只要吃上一小块，大脑就会噼里啪啦地飞速运转，没什么问题解决不了。唯一需要
+                                                  注意的是，装蜜糖的罐子不能放在太容易伸手够到的地方。.wav
+
+HoldOntoCeilingManually = 在天花板上待机
+好像尘世七执政之间在很久很久以前还会定期联络，只是我的情况比较特殊，已经不记得这段经历了…
+                                                  既然须弥的混乱告一段落，我觉得我该重新见他们一面。你熟识的那几位神明，能为我引荐一下吗？.w
+                                                  av
+听说玩游戏能够快速缩短人与人之间的距离。神也是如此吧。不如，在和大家相聚之后，我就主动提议
+                                                  一起玩「跳房子」…好像也不合适。弄得像是我把房门做成了小小的洞口，仗着自己的优势欺负大家一
+                                                  样。.wav
+					
+StandUpWithSound3              
+那些海鲜，它们在无边无际的黑暗中出生，成长在我所不了解的海底深处。要我吃下它们，就好像要我咽下一团脏兮兮的乌云一样。.wav
+StandUpWithSound4
+我自认为我擅长提问和回答问题，但我渐渐明白，有很多人是揣着明白装糊涂，问题的答案并不能帮上他们的忙。是不是随着年龄增长，大家都会失去面对质问和答案的勇气呢….wav
+StandUpWithSound5
+我想了想，要庆祝你的生日，至少也要像「花神诞祭」一样隆重…欸？太夸张了吗？可是我都让人准备好了，走吧走吧，仅限一次也好，绝对会让你满意的！.wav	
+			
+FlyingWithSound1
+果然要亲眼去看，才能感受到世界的美。.wav
+FlyingWithSound2
+这种感觉，就像月莲找到了莲叶，珊瑚真珠找到了贝壳。.wav
+			
+Land = 着陆
+LandWithSound1 = 着陆
+被打晕了….wav
+我…不明白….wav
+这样不太明智….wav
+好痛啊。.wav
+换个策略吧。.wav
+
+LieDown = 睡觉        
+LieDownWithSound1 = 睡觉(hide)     听见了吗？天空正对万物轻语：「睡觉时间到了哦。」.wav  morning.wav
+
+Sound="/.wav"
+
+
+
+					<Behavior Name="JumpFromBottomOfIE" Frequency="50" Condition="#{mascot.anchor.x &gt;= mascot.environment.activeIE.left &amp;&amp;
+				mascot.anchor.x &lt; mascot.environment.activeIE.right}" />
+
+		<Action Name="ClimbAlongWall" Type="Sequence" Loop="false">
+			<ActionReference Name="ClimbWall" TargetY="#{mascot.environment.workArea.top+64}" />
+			<ActionReference Name="Offset" Y="-64" />
+			<ActionReference Name="Look" />
+			<ActionReference Name="ClimbCeiling" TargetX="${mascot.lookRight ? mascot.environment.workArea.left+Math.random()*100 : mascot.environment.workArea.right-Math.random*100}" />
+		</Action>
+		
+				<Pose Image="/pl_00.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_01.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_02.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_03.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_05.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_06.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_07.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_08.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_09.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_10.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_11.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_12.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_13.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_14.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_15.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_16.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_17.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_18.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_19.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_20.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_21.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_22.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_23.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_24.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_25.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_26.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_27.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_28.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_29.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_30.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				<Pose Image="/pl_31.png" ImageAnchor="96,0" Velocity="-8,0" Duration="2" />
+				
+				<Pose Image="/d1_00.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_01.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_02.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_03.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_05.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_06.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_07.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_08.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_09.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_10.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_11.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_12.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_13.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_14.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_15.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_16.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_17.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_18.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_19.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_20.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_21.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_22.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_23.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_24.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_25.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_26.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_27.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_28.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_29.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_30.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				<Pose Image="/d1_31.png" ImageAnchor="96,5" Velocity="0,0" Duration="2" />
+				
+				
+			<ActionReference Name="Walk" TargetX="${mascot.lookRight 
+				? 100+Math.random()*300}
+				: -100-Math.random()*300" />
+			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
+			<ActionReference Name="Look" LookRight="true" />
+			<ActionReference Name="Stand" Duration="${20+Math.random()*20}" />
+			
+
+			<Pose Image="/h_00.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_01.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_02.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_03.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_04.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_05.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_06.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_07.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_08.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_09.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_10.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_11.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_12.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_13.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_14.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_15.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_16.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_17.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_18.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_19.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_20.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_21.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_22.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_23.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_24.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_25.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_26.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_27.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_28.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_29.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_30.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_31.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_32.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_33.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_34.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_35.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_36.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_37.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_38.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_39.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_40.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_41.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_42.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_43.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_44.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_45.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_46.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_47.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_48.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_49.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_50.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_51.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_52.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_53.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_54.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_55.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_56.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_57.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_58.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_59.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_60.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_61.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_62.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_63.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_64.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_65.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_66.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_67.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_68.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_69.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_70.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_71.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/h_00.png" ImageAnchor="96,180" Velocity="0,0" Duration="2" />
+				
+Notepad++
+Edge
+Obsidian
+Visual Studio
+Netch
+
+Wps
+百度网盘
