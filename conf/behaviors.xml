@@ -52,7 +52,7 @@
 		
 		<Behavior Name="LieDownWithSound1" Frequency="0" Hidden="true" />
 		<Behavior Name="LandWithSound1" Frequency="0" Hidden="true" />
-		<Behavior Name="Goodmoring" Frequency="0" />
+		<Behavior Name="Goodmorning" Frequency="0" />
 		<Behavior Name="NapTime" Frequency="0" />
 		<Behavior Name="Sunset" Frequency="0" />
 		
@@ -120,7 +120,7 @@
 			<Behavior Name="StickTongueOut"               Frequency="50" />
 			<Behavior Name="PlayOnTheSwing"               Frequency="50" />
 			<Behavior Name="PutPalmsTogether"             Frequency="50" />
-            <Behavior Name="Goodmoring"                   Frequency="50" />
+            <Behavior Name="Goodmorning"                  Frequency="50" />
             <Behavior Name="NapTime"                      Frequency="50" />
             <Behavior Name="Sunset"                       Frequency="50" />
             

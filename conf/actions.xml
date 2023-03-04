@@ -4072,19 +4072,19 @@
 			<ActionReference Name="Stand" Duration="${1280}" />
 		</Action>
 		
-		<Action Name="Goodmoring" Type="Sequence" Loop="false">
+		<Action Name="Goodmorning" Type="Sequence" Loop="false">
 			<ActionReference Name="WaveHandImplWithSound1" Duration="${60}" />
-			<ActionReference Name="WaveHandImplEnd" Duration="${50}" />
+			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
 		<Action Name="NapTime" Type="Sequence" Loop="false">
 			<ActionReference Name="WaveHandImplWithSound2" Duration="${60}" />
-			<ActionReference Name="WaveHandImplEnd" Duration="${50}" />
+			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
 		<Action Name="Sunset" Type="Sequence" Loop="false">
 			<ActionReference Name="WaveHandImplWithSound3" Duration="${60}" />
-			<ActionReference Name="WaveHandImplEnd" Duration="${50}" />
+			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
 		<Action Name="SitDown" Type="Sequence" Loop="false">
