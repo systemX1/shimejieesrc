@@ -1574,8 +1574,8 @@
 		</Action>
 		<Action Name="AbilityQImplWithSound1" Type="Stay" BorderType="Floor">
 			<Animation>
-				<Pose Image="/AbilityQ_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/思路变得更开阔了，天空和大海都能装进去。.wav" />
-				<Pose Image="/AbilityQ_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/AbilityQ_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/AbilityQ_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/思路变得更开阔了，天空和大海都能装进去。.wav" />
 				<Pose Image="/AbilityQ_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/AbilityQ_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/AbilityQ_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -4175,7 +4175,7 @@
 		</Action>
 		<Action Name="SurprisedWithSound4" Type="Sequence" Loop="false">
 			<ActionReference Name="SurprisedImplWithSound4" Duration="${50}" />
-			<ActionReference Name="SurprisedImplRepeat" Duration="${56*10}" />
+			<ActionReference Name="SurprisedImplRepeat" Duration="${56*7}" />
             <ActionReference Name="SurprisedImplEnd" Duration="${20}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
@@ -4185,15 +4185,15 @@
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="AbilityQWithSound1" Type="Sequence" Loop="false">
-			<ActionReference Name="AbilityQImplWithSound1" Duration="${76}" />
+			<ActionReference Name="AbilityQImplWithSound1" Duration="${74}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="AbilityQWithSound2" Type="Sequence" Loop="false">
-			<ActionReference Name="AbilityQImplWithSound2" Duration="${76}" />
+			<ActionReference Name="AbilityQImplWithSound2" Duration="${74}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="AbilityQWithSound3" Type="Sequence" Loop="false">
-			<ActionReference Name="AbilityQImplWithSound3" Duration="${76}" />
+			<ActionReference Name="AbilityQImplWithSound3" Duration="${74}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 
@@ -4285,7 +4285,7 @@
 		</Action>
 
 		<Action Name="HoldOntoWall" Type="Sequence" Loop="false">
-			<ActionReference Name="GrabWall" Duration="${5000+Math.random()*5000}" />
+			<ActionReference Name="GrabWall" Duration="${250+Math.random()*1250}" />
 		</Action>
 		
 		<Action Name="HoldOntoWallManually" Type="Sequence" Loop="false">
@@ -4293,7 +4293,7 @@
 			<ActionReference Name="GrabWall" Duration="${180}" />
 			<ActionReference Name="GrabWallWithSound2" Duration="${36}" />
 			<ActionReference Name="GrabWallWithSound3" Duration="${36}" />
-			<ActionReference Name="GrabWall" Duration="${1500+Math.random()*4500}" />
+			<ActionReference Name="GrabWall" Duration="${500+Math.random()*4500}" />
 		</Action>
 
 		<Action Name="FallFromWall" Type="Sequence" Loop="false">
@@ -4420,7 +4420,7 @@
 			<ActionReference Name="FallingUpFast" 
 				TargetX="${mascot.anchor.x}" 
 				TargetY="${mascot.environment.activeIE.bottom}" />
-			<ActionReference Name="HoldOntoCeiling" Duration="${100+Math.random()*2400}" />
+			<ActionReference Name="HoldOntoCeiling" Duration="${100+Math.random()*1400}" />
 		</Action>
 		
 		<Action Name="WarpUpToCeiling" Type="Sequence" Loop="false">
@@ -4432,7 +4432,7 @@
 			<ActionReference Name="Transparent" 
 				TargetX="${mascot.anchor.x}" 
 				TargetY="${mascot.environment.activeIE.bottom}" />
-			<ActionReference Name="HoldOntoCeiling" Duration="${100+Math.random()*2400}" />
+			<ActionReference Name="HoldOntoCeiling" Duration="${100+Math.random()*1400}" />
 		</Action>
 		
 		<Action Name="HoldOntoCeiling" Type="Sequence" Loop="false">
@@ -4443,7 +4443,7 @@
 			<ActionReference Name="GrabCeilingWithSound1" Duration="${36}" />
 			<ActionReference Name="GrabCeiling" Duration="${540}" />
 			<ActionReference Name="GrabCeilingWithSound2" Duration="${36}" />
-			<ActionReference Name="GrabCeiling" Duration="${1500+Math.random()*4500}" />
+			<ActionReference Name="GrabCeiling" Duration="${500+Math.random()*4500}" />
 		</Action>
 
 		<Action Name="ClimbAlongCeiling" Type="Sequence" Loop="false">

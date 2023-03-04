@@ -111,53 +111,53 @@
 				</NextBehavior>
 			</Behavior>
 
-			<Behavior Name="HugAranara"                   Frequency="50" />
-			<Behavior Name="Heart"                        Frequency="50" />
-			<Behavior Name="WaveHand"                     Frequency="50" />
-			<Behavior Name="Surprised"                    Frequency="50" />
-			<Behavior Name="AbilityQ"                     Frequency="50" />
-			<Behavior Name="AbilityE"                     Frequency="50" />
-			<Behavior Name="StickTongueOut"               Frequency="50" />
-			<Behavior Name="PlayOnTheSwing"               Frequency="50" />
-			<Behavior Name="PutPalmsTogether"             Frequency="50" />
-            <Behavior Name="Goodmorning"                  Frequency="50" />
-            <Behavior Name="NapTime"                      Frequency="50" />
-            <Behavior Name="Sunset"                       Frequency="50" />
+			<Behavior Name="HugAranara"                   Frequency="50"  />
+			<Behavior Name="Heart"                        Frequency="50"  />
+			<Behavior Name="WaveHand"                     Frequency="50"  />
+			<Behavior Name="Surprised"                    Frequency="50"  />
+			<Behavior Name="AbilityQ"                     Frequency="50"  />
+			<Behavior Name="AbilityE"                     Frequency="50"  />
+			<Behavior Name="StickTongueOut"               Frequency="50"  />
+			<Behavior Name="PlayOnTheSwing"               Frequency="50"  />
+			<Behavior Name="PutPalmsTogether"             Frequency="50"  />
+            <Behavior Name="Goodmorning"                  Frequency="50"  />
+            <Behavior Name="NapTime"                      Frequency="50"  />
+            <Behavior Name="Sunset"                       Frequency="50"  />
             
-		    <Behavior Name="HugAranaraWithSound1"         Frequency="50" Hidden="true" />
-		    <Behavior Name="HugAranaraWithSound2"         Frequency="50" Hidden="true" />
-		    <Behavior Name="HugAranaraWithSound3"         Frequency="50" Hidden="true" />
-		    <Behavior Name="HeartWithSound1"              Frequency="50" Hidden="true" />
-		    <Behavior Name="HeartWithSound2"              Frequency="50" Hidden="true" />
-		    <Behavior Name="WaveHandWithSound4"           Frequency="50" Hidden="true" />
-		    <Behavior Name="WaveHandWithSound5"           Frequency="50" Hidden="true" />
-		    <Behavior Name="WaveHandWithSound6"           Frequency="50" Hidden="true" />
-		    <Behavior Name="SurprisedWithSound1"          Frequency="50" Hidden="true" />
-		    <Behavior Name="SurprisedWithSound2"          Frequency="50" Hidden="true" />
-		    <Behavior Name="SurprisedWithSound3"          Frequency="50" Hidden="true" />
-		    <Behavior Name="SurprisedWithSound4"          Frequency="50" />
-		    <Behavior Name="AbilityQWithSound1"           Frequency="50" Hidden="true" />
-		    <Behavior Name="AbilityQWithSound2"           Frequency="50" Hidden="true" />
-		    <Behavior Name="AbilityQWithSound3"           Frequency="50" Hidden="true" />
-		    <Behavior Name="AbilityEWithSound1"           Frequency="50" Hidden="true" />
-		    <Behavior Name="AbilityEWithSound2"           Frequency="50" Hidden="true" />
-		    <Behavior Name="AbilityEWithSound3"           Frequency="50" Hidden="true" />
-		    <Behavior Name="StickTongueOutWithSound1"     Frequency="50" Hidden="true" />
-		    <Behavior Name="StickTongueOutWithSound2"     Frequency="50" Hidden="true" />
-		    <Behavior Name="StickTongueOutWithSound3"     Frequency="50" Hidden="true" />
-		    <Behavior Name="PlayOnTheSwingWithSound1"     Frequency="50" Hidden="true" />
-		    <Behavior Name="PlayOnTheSwingWithSound2"     Frequency="50" Hidden="true" />
-		    <Behavior Name="PutPalmsTogetherWithSound1"   Frequency="50" Hidden="true" />
-		    <Behavior Name="PutPalmsTogetherWithSound2"   Frequency="50" Hidden="true" />
-		    <Behavior Name="PutPalmsTogetherWithSound3"   Frequency="50" Hidden="true" />
-		    <Behavior Name="StandUpWithSound3"            Frequency="50" Hidden="true" />
-			<Behavior Name="StandUpWithSound4"            Frequency="50" Hidden="true" />
-			<Behavior Name="StandUpWithSound5"            Frequency="50" Hidden="true" />
+		    <Behavior Name="HugAranaraWithSound1"         Frequency="50"  Hidden="true" />
+		    <Behavior Name="HugAranaraWithSound2"         Frequency="50"  Hidden="true" />
+		    <Behavior Name="HugAranaraWithSound3"         Frequency="50"  Hidden="true" />
+		    <Behavior Name="HeartWithSound1"              Frequency="50"  Hidden="true" />
+		    <Behavior Name="HeartWithSound2"              Frequency="50"  Hidden="true" />
+		    <Behavior Name="WaveHandWithSound4"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="WaveHandWithSound5"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="WaveHandWithSound6"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound1"          Frequency="50"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound2"          Frequency="50"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound3"          Frequency="50"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound4"          Frequency="50"  />
+		    <Behavior Name="AbilityQWithSound1"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="AbilityQWithSound2"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="AbilityQWithSound3"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="AbilityEWithSound1"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="AbilityEWithSound2"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="AbilityEWithSound3"           Frequency="50"  Hidden="true" />
+		    <Behavior Name="StickTongueOutWithSound1"     Frequency="50"  Hidden="true" />
+		    <Behavior Name="StickTongueOutWithSound2"     Frequency="50"  Hidden="true" />
+		    <Behavior Name="StickTongueOutWithSound3"     Frequency="50"  Hidden="true" />
+		    <Behavior Name="PlayOnTheSwingWithSound1"     Frequency="50"  Hidden="true" />
+		    <Behavior Name="PlayOnTheSwingWithSound2"     Frequency="50"  Hidden="true" />
+		    <Behavior Name="PutPalmsTogetherWithSound1"   Frequency="50"  Hidden="true" />
+		    <Behavior Name="PutPalmsTogetherWithSound2"   Frequency="50"  Hidden="true" />
+		    <Behavior Name="PutPalmsTogetherWithSound3"   Frequency="50"  Hidden="true" />
+		    <Behavior Name="StandUpWithSound3"            Frequency="50"  Hidden="true" />
+			<Behavior Name="StandUpWithSound4"            Frequency="50"  Hidden="true" />
+			<Behavior Name="StandUpWithSound5"            Frequency="50"  Hidden="true" />
 			
-            <Behavior Name="LieDownWithSound1"            Frequency="400" Hidden="true" />
-			<Behavior Name="LieDown" Frequency="400">
+            <Behavior Name="LieDownWithSound1"            Frequency="500" Hidden="true" />
+			<Behavior Name="LieDown" Frequency="100">
 				<NextBehavior Add="true">
-					<BehaviorReference Name="LieDown" Frequency="1000" />
+					<BehaviorReference Name="LieDownWithSound1" Frequency="1000" />
 					<BehaviorReference Name="FlyToCeiling" Frequency="100" />
 					<BehaviorReference Name="WarpUpToCeiling" Frequency="100" />
 					<BehaviorReference Name="ChaseMouse" Frequency="100" />
