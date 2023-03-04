@@ -70,6 +70,21 @@
 		
 		<!-- On the Floor -->
 		<Condition Condition="#{mascot.environment.floor.isOn(mascot.anchor) || mascot.environment.activeIE.topBorder.isOn(mascot.anchor)}">
+			<Behavior Name="SplitIntoTwo" Frequency="9300" Condition="#{mascot.totalCount &lt; 3}" >
+				<NextBehavior Add="true">
+					<BehaviorReference Name="FallUpToCeiling" Frequency="100" />
+					<BehaviorReference Name="GrabWorkAreaBottomLeftWall" Frequency="50" />
+					<BehaviorReference Name="GrabWorkAreaBottomRightWall" Frequency="50" />
+				</NextBehavior>
+			</Behavior>
+			<Behavior Name="SplitIntoTwo" Frequency="5700" Condition="#{mascot.totalCount &lt; 5}" >
+				<NextBehavior Add="true">
+					<BehaviorReference Name="FallUpToCeiling" Frequency="100" />
+					<BehaviorReference Name="GrabWorkAreaBottomLeftWall" Frequency="50" />
+					<BehaviorReference Name="GrabWorkAreaBottomRightWall" Frequency="50" />
+				</NextBehavior>
+			</Behavior>
+			
 			<Behavior Name="StandUp" Frequency="200" Hidden="true"/>
 			<Behavior Name="SitDown" Frequency="600">
 				<NextBehavior Add="true">
@@ -78,25 +93,12 @@
 				</NextBehavior>
 			</Behavior>
 			
-			<Behavior Name="SplitIntoTwo" Frequency="19300" Condition="#{mascot.totalCount &lt; 2}" >
-				<NextBehavior Add="true">
-					<BehaviorReference Name="FallUpToCeiling" Frequency="100" />
-					<BehaviorReference Name="GrabWorkAreaBottomLeftWall" Frequency="50" />
-					<BehaviorReference Name="GrabWorkAreaBottomRightWall" Frequency="50" />
-				</NextBehavior>
-			</Behavior>
-			<Behavior Name="SplitIntoTwo" Frequency="5700" Condition="#{mascot.totalCount &lt; 3}" >
-				<NextBehavior Add="true">
-					<BehaviorReference Name="FallUpToCeiling" Frequency="100" />
-					<BehaviorReference Name="GrabWorkAreaBottomLeftWall" Frequency="50" />
-					<BehaviorReference Name="GrabWorkAreaBottomRightWall" Frequency="50" />
-				</NextBehavior>
-			</Behavior>
-			
 			<Behavior Name="SitWhileDanglingLegs" Frequency="350" />
 			<Behavior Name="SitAndSpinHead" Frequency="300" />
-			<Behavior Name="WarpUpToCeiling" Frequency="1250" />
-			<Behavior Name="FallUpToCeiling" Frequency="250" />
+			<Behavior Name="WarpUpToCeiling" Frequency="750" Condition="#{mascot.totalCount &gt;= 3}" />
+			<Behavior Name="FallUpToCeiling" Frequency="250" Condition="#{mascot.totalCount &gt;= 3}" />
+            <Behavior Name="WarpUpToCeiling" Frequency="150" />
+			<Behavior Name="FallUpToCeiling" Frequency="50" />
 			<Behavior Name="FlyToCeiling" Frequency="400" />
 			<Behavior Name="Fly" Frequency="200">
 				<NextBehavior Add="true">
@@ -124,35 +126,67 @@
             <Behavior Name="NapTime"                      Frequency="50"  />
             <Behavior Name="Sunset"                       Frequency="50"  />
             
-		    <Behavior Name="HugAranaraWithSound1"         Frequency="50"  Hidden="true" />
-		    <Behavior Name="HugAranaraWithSound2"         Frequency="50"  Hidden="true" />
-		    <Behavior Name="HugAranaraWithSound3"         Frequency="50"  Hidden="true" />
-		    <Behavior Name="HeartWithSound1"              Frequency="50"  Hidden="true" />
-		    <Behavior Name="HeartWithSound2"              Frequency="50"  Hidden="true" />
-		    <Behavior Name="WaveHandWithSound4"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="WaveHandWithSound5"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="WaveHandWithSound6"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="SurprisedWithSound1"          Frequency="50"  Hidden="true" />
-		    <Behavior Name="SurprisedWithSound2"          Frequency="50"  Hidden="true" />
-		    <Behavior Name="SurprisedWithSound3"          Frequency="50"  Hidden="true" />
-		    <Behavior Name="SurprisedWithSound4"          Frequency="50"  />
-		    <Behavior Name="AbilityQWithSound1"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="AbilityQWithSound2"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="AbilityQWithSound3"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="AbilityEWithSound1"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="AbilityEWithSound2"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="AbilityEWithSound3"           Frequency="50"  Hidden="true" />
-		    <Behavior Name="StickTongueOutWithSound1"     Frequency="50"  Hidden="true" />
-		    <Behavior Name="StickTongueOutWithSound2"     Frequency="50"  Hidden="true" />
-		    <Behavior Name="StickTongueOutWithSound3"     Frequency="50"  Hidden="true" />
-		    <Behavior Name="PlayOnTheSwingWithSound1"     Frequency="50"  Hidden="true" />
-		    <Behavior Name="PlayOnTheSwingWithSound2"     Frequency="50"  Hidden="true" />
-		    <Behavior Name="PutPalmsTogetherWithSound1"   Frequency="50"  Hidden="true" />
-		    <Behavior Name="PutPalmsTogetherWithSound2"   Frequency="50"  Hidden="true" />
-		    <Behavior Name="PutPalmsTogetherWithSound3"   Frequency="50"  Hidden="true" />
-		    <Behavior Name="StandUpWithSound3"            Frequency="50"  Hidden="true" />
-			<Behavior Name="StandUpWithSound4"            Frequency="50"  Hidden="true" />
-			<Behavior Name="StandUpWithSound5"            Frequency="50"  Hidden="true" />
+		    <Behavior Name="HugAranaraWithSound1"         Frequency="25"  Hidden="true" />
+		    <Behavior Name="HugAranaraWithSound2"         Frequency="25"  Hidden="true" />
+		    <Behavior Name="HugAranaraWithSound3"         Frequency="25"  Hidden="true" />
+		    <Behavior Name="HeartWithSound1"              Frequency="25"  Hidden="true" />
+		    <Behavior Name="HeartWithSound2"              Frequency="25"  Hidden="true" />
+		    <Behavior Name="WaveHandWithSound4"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="WaveHandWithSound5"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="WaveHandWithSound6"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound1"          Frequency="25"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound2"          Frequency="25"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound3"          Frequency="25"  Hidden="true" />
+		    <Behavior Name="SurprisedWithSound4"          Frequency="25"  />
+		    <Behavior Name="AbilityQWithSound1"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="AbilityQWithSound2"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="AbilityQWithSound3"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="AbilityEWithSound1"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="AbilityEWithSound2"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="AbilityEWithSound3"           Frequency="25"  Hidden="true" />
+		    <Behavior Name="StickTongueOutWithSound1"     Frequency="25"  Hidden="true" />
+		    <Behavior Name="StickTongueOutWithSound2"     Frequency="25"  Hidden="true" />
+		    <Behavior Name="StickTongueOutWithSound3"     Frequency="25"  Hidden="true" />
+		    <Behavior Name="PlayOnTheSwingWithSound1"     Frequency="25"  Hidden="true" />
+		    <Behavior Name="PlayOnTheSwingWithSound2"     Frequency="25"  Hidden="true" />
+		    <Behavior Name="PutPalmsTogetherWithSound1"   Frequency="25"  Hidden="true" />
+		    <Behavior Name="PutPalmsTogetherWithSound2"   Frequency="25"  Hidden="true" />
+		    <Behavior Name="PutPalmsTogetherWithSound3"   Frequency="25"  Hidden="true" />
+            <Behavior Name="StandUpWithSound1"            Frequency="25"  Hidden="true" />
+		    <Behavior Name="StandUpWithSound3"            Frequency="25"  Hidden="true" />
+			<Behavior Name="StandUpWithSound4"            Frequency="25"  Hidden="true" />
+			<Behavior Name="StandUpWithSound5"            Frequency="25"  Hidden="true" />
+
+            <Behavior Name="HugAranaraWithSound1"         Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="HugAranaraWithSound2"         Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="HugAranaraWithSound3"         Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="HeartWithSound1"              Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="HeartWithSound2"              Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="WaveHandWithSound4"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="WaveHandWithSound5"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="WaveHandWithSound6"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="SurprisedWithSound1"          Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="SurprisedWithSound2"          Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="SurprisedWithSound3"          Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="SurprisedWithSound4"          Frequency="50"                Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="AbilityQWithSound1"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="AbilityQWithSound2"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="AbilityQWithSound3"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="AbilityEWithSound1"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="AbilityEWithSound2"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="AbilityEWithSound3"           Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="StickTongueOutWithSound1"     Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="StickTongueOutWithSound2"     Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="StickTongueOutWithSound3"     Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="PlayOnTheSwingWithSound1"     Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="PlayOnTheSwingWithSound2"     Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="PutPalmsTogetherWithSound1"   Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="PutPalmsTogetherWithSound2"   Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="PutPalmsTogetherWithSound3"   Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+            <Behavior Name="StandUpWithSound1"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+		    <Behavior Name="StandUpWithSound3"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+			<Behavior Name="StandUpWithSound4"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
+			<Behavior Name="StandUpWithSound5"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 3}" />
 			
             <Behavior Name="LieDownWithSound1"            Frequency="500" Hidden="true" />
 			<Behavior Name="LieDown" Frequency="100">
@@ -168,7 +202,7 @@
 				</NextBehavior>
 			</Behavior>
 			
-			<Behavior Name="SplitIntoTwo" Frequency="3900" Condition="#{mascot.totalCount &lt; 5}" />
+			<Behavior Name="SplitIntoTwo" Frequency="3900" Condition="#{mascot.totalCount &lt; 7}" />
 			<Behavior Name="SplitIntoTwo" Frequency="75" Condition="#{mascot.totalCount &lt; 11}" />
 			<Behavior Name="SplitIntoTwo" Frequency="25" Condition="#{mascot.totalCount &lt; 17}" /> 	
 		</Condition> 
@@ -180,7 +214,7 @@
 					mascot.environment.workArea.leftBorder.isOn(mascot.anchor) || 
 					mascot.environment.activeIE.rightBorder.isOn(mascot.anchor) ) }">
 			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
-			<Behavior Name="HoldOntoWall" Frequency="500" Hidden="true"/>
+			<Behavior Name="HoldOntoWall" Frequency="400" Hidden="true"/>
 			<Behavior Name="Fly" Frequency="50">
 				<NextBehavior Add="true">
 					<BehaviorReference Name="FlyToCeiling" Frequency="300" />
@@ -204,7 +238,7 @@
 		<!-- On the Ceiling -->
 		<Condition Condition="#{mascot.environment.ceiling.isOn(mascot.anchor) || mascot.environment.activeIE.bottomBorder.isOn(mascot.anchor)}">
 			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
-			<Behavior Name="HoldOntoCeiling" Frequency="900"  Hidden="true"/>
+			<Behavior Name="HoldOntoCeiling" Frequency="500"  Hidden="true"/>
 			<Behavior Name="FallFromCeiling" Frequency="100" Hidden="true" />
 			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" /> 	
 		</Condition>
@@ -212,8 +246,8 @@
 		<!-- On Work Area Floor -->
 		<Condition Condition="#{mascot.environment.floor.isOn(mascot.anchor)}">
 			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
-			<Behavior Name="FlyAndGrabLeftWall" Frequency="100" />
-			<Behavior Name="FlyAndGrabRightWall" Frequency="400" />
+			<Behavior Name="FlyAndGrabLeftWall" Frequency="500" />
+			<Behavior Name="FlyAndGrabRightWall" Frequency="300" />
 
 			<Behavior Name="Fly" Frequency="75">
 				<NextBehavior Add="true">

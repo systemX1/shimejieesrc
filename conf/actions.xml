@@ -47,7 +47,7 @@
 
 		<Action Name="StandWithSound1" Type="Stay" BorderType="Floor">
 			<Animation>
-				<Pose Image="/r_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2"  Sound="/morning.wav" />
+				<Pose Image="/r_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2"  Sound="/我自认为我擅长提问和回答问题，但我渐渐明白，有很多人是揣着明白装糊涂，问题的答案并不能帮上他们的忙。是不是随着年龄增长，大家都会失去面对质问和答案的勇气呢….wav" />
 				<Pose Image="/r_01.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/r_02.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/r_03.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
@@ -2065,6 +2065,31 @@
                 <Pose Image="/mm_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 			</Animation>
 		</Action>
+        <Action Name="StickTongueOutImplWithSound4" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/mm_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/morning.wav" />
+				<Pose Image="/mm_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/mm_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/mm_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
 
         <Action Name="PlayOnTheSwingImpl" Type="Stay" BorderType="Floor">
 			<Animation>
@@ -2319,6 +2344,72 @@
                 <Pose Image="/swing_31.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swing_32.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swing_33.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_25.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_26.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_27.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_28.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_29.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_30.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_31.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_32.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_33.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_25.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_26.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_27.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_28.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_29.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_30.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_31.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_32.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_33.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 
                 <Pose Image="/swingend_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swingend_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -2434,6 +2525,72 @@
                 <Pose Image="/swing_32.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swing_33.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/swing_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_25.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_26.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_27.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_28.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_29.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_30.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_31.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_32.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_33.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_25.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_26.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_27.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_28.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_29.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_30.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_31.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_32.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_33.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/swing_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swing_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swing_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/swing_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -4082,6 +4239,10 @@
 		<Action Name="StandUp" Type="Sequence" Loop="false">
 			<ActionReference Name="Stand" Duration="${150+Math.random()*850}" />
 		</Action>
+        <Action Name="StandUpWithSound1" Type="Sequence" Loop="false">
+			<ActionReference Name="StandWithSound1" Duration="${64}" />
+			<ActionReference Name="Stand" Duration="${1280}" />
+		</Action>
 		<Action Name="StandUpWithSound3" Type="Sequence" Loop="false">
 			<ActionReference Name="StandWithSound3" Duration="${64}" />
 			<ActionReference Name="Stand" Duration="${1280}" />
@@ -4299,7 +4460,7 @@
 		<Action Name="LieDownWithSound1" Type="Sequence" Loop="false">
 			<ActionReference Name="SleepingWithSound1" Duration="${64}" />
 			<ActionReference Name="Sleeping" Duration="${2560}" />
-			<ActionReference Name="StandWithSound1" Duration="${64}" />
+			<ActionReference Name="StickTongueOutImplWithSound4" Duration="${42}" />
             <ActionReference Name="Stand" Duration="${500+Math.random()*250}" />
 		</Action>
 
