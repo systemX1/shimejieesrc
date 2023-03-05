@@ -95,6 +95,18 @@ Sound="/.wav"
 
 
 
+for /r ".\Nahida" %i in (*.wav) do ffmpeg -i "%i" -af "volume=-25dB" "%~ni_out.wav"
+
+
+    Directory: D:\Program Files (x86)\Nahida\img\shimeji\sound
+
+    https://bbs.mihoyo.com/ys/obc/content/5307/detail?bbs_presentation_style=no_header
+
+
+
+
+
+
 					<Behavior Name="JumpFromBottomOfIE" Frequency="50" Condition="#{mascot.anchor.x &gt;= mascot.environment.activeIE.left &amp;&amp;
 				mascot.anchor.x &lt; mascot.environment.activeIE.right}" />
 

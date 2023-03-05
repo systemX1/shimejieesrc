@@ -3175,6 +3175,41 @@
 				<Pose Image="/l_31.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
 			</Animation>
 		</Action>
+        <Action Name="SleepingWithSound2" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/l_01.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" Sound="/晚安。睡觉之前，要不要再去上一次厕所呢？.wav" />
+				<Pose Image="/l_02.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_03.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_04.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_05.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_06.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_07.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_08.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_09.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_10.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_11.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_12.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_13.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_14.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_15.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_16.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_17.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_18.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_19.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_20.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_21.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_22.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_23.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_24.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_25.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_26.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_27.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_28.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_29.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_30.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/l_31.png" ImageAnchor="104,180" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
 
 		<Action Name="Huging" Type="Stay" BorderType="Floor">
 			<Animation>
@@ -3975,7 +4010,7 @@
 		<Action Name="Bouncing2" Type="Animate" BorderType="Floor">
 			<Animation>
 				<Pose Image="/j2_00.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
-				<Pose Image="/j2_01.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" Sound="/就像蕈猪的脑子一样空空如也.wav" />
+				<Pose Image="/j2_01.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" Sound="/segments/现在的你，就像蕈猪的脑子一样空空如也.wav" />
 				<Pose Image="/j2_02.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
 				<Pose Image="/j2_03.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
 				<Pose Image="/j2_04.png" ImageAnchor="83,180" Velocity="0,0" Duration="1" />
@@ -4607,6 +4642,12 @@
 		</Action>
 		<Action Name="LieDownWithSound1" Type="Sequence" Loop="false">
 			<ActionReference Name="SleepingWithSound1" Duration="${64}" />
+			<ActionReference Name="Sleeping" Duration="${2560}" />
+			<ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
+            <ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="LieDownWithSound2" Type="Sequence" Loop="false">
+			<ActionReference Name="SleepingWithSound2" Duration="${64}" />
 			<ActionReference Name="Sleeping" Duration="${2560}" />
 			<ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
             <ActionReference Name="NewActionsEnd" />

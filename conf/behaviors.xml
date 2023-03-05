@@ -51,7 +51,8 @@
 		<Behavior Name="StickTongueOutWithSound2" Frequency="0" />
 		<Behavior Name="PutPalmsTogetherWithSound1" Frequency="0" />
 		
-		<Behavior Name="LieDownWithSound1" Frequency="0" Hidden="true" />
+		<Behavior Name="LieDownWithSound1" Frequency="0" />
+		<Behavior Name="LieDownWithSound2" Frequency="0" />
 		<Behavior Name="LandWithSound1" Frequency="0" Hidden="true" />
 		<Behavior Name="Goodmorning" Frequency="0" />
 		<Behavior Name="NapTime" Frequency="0" />
@@ -293,7 +294,8 @@
 			<Behavior Name="StandUpWithSound6"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 1}" />
 			
             <Behavior Name="LieDownWithSound1"            Frequency="300"               Condition="#{mascot.totalCount &lt;= 5}" />
-            <Behavior Name="LieDownWithSound1"            Frequency="200"               />
+            <Behavior Name="LieDownWithSound1"            Frequency="100"               />
+            <Behavior Name="LieDownWithSound2"            Frequency="100"               />
 			<Behavior Name="LieDown" Frequency="100" Hidden="true" >
 				<NextBehavior Add="true">
 					<BehaviorReference Name="LieDownWithSound1" Frequency="1000" />
