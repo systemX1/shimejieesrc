@@ -2799,6 +2799,10 @@
                 <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+            </Animation>
+		</Action>
+        <Action Name="PutPalmsTogetherImplRepeatEnd" Type="Stay" BorderType="Floor">
+			<Animation>
 				<Pose Image="/yb_24.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_25.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_26.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -2866,6 +2870,122 @@
 		<Action Name="PutPalmsTogetherImplWithSound3" Type="Stay" BorderType="Floor">
 			<Animation>
 				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/又有心事吗？我来陪你一起想吧。.wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+
+        <Action Name="PutPalmsTogetherImplWithSound4" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/现在的你，就像一只爱上了蕈类的野林猪..世界的美.wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+
+        <Action Name="PutPalmsTogetherImplWithSound5" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/现在的你，就像一只爱上了蕈类的野林猪..好奇心值得嘉奖哦。.wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+
+        <Action Name="PutPalmsTogetherImplWithSound6" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/现在的你，就像蕈猪的脑子一样空空如也，是源自谁的馈赠呢？.wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+
+        <Action Name="PutPalmsTogetherImplWithSound7" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/现在的你，脑子就像蕈猪的脑子一样空空如也..见识.wav" />
 				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -3705,7 +3825,7 @@
 		<Action Name="GrabWallWithSound4" Type="Stay" BorderType="Wall">
 			<Animation>
 				<Pose Image="/d_00.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
-				<Pose Image="/d_01.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" Sound="/segments/现在的你，就像一只爱上了蕈类的野林猪.wav" />
+				<Pose Image="/d_01.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" Sound="/segments/现在的你，就像一只爱上了蕈类的野林猪，哭丧得像是被雷劈过的堇瓜一样。.wav" />
 				<Pose Image="/d_02.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
 				<Pose Image="/d_03.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
 				<Pose Image="/d_04.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
@@ -4613,22 +4733,50 @@
 		
 		<Action Name="PutPalmsTogether" Type="Sequence" Loop="false">
 			<ActionReference Name="PutPalmsTogetherImpl" Duration="${48}" />
-			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${134}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="PutPalmsTogetherWithSound1" Type="Sequence" Loop="false">
 			<ActionReference Name="PutPalmsTogetherImplWithSound1" Duration="${48}" />
-			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${134}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="PutPalmsTogetherWithSound2" Type="Sequence" Loop="false">
 			<ActionReference Name="PutPalmsTogetherImplWithSound2" Duration="${48}" />
-			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${134}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="PutPalmsTogetherWithSound3" Type="Sequence" Loop="false">
 			<ActionReference Name="PutPalmsTogetherImplWithSound3" Duration="${48}" />
-			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${134}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="PutPalmsTogetherWithSound4" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound4" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128*3}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+		<Action Name="PutPalmsTogetherWithSound5" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound5" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="PutPalmsTogetherWithSound6" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound6" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="PutPalmsTogetherWithSound7" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound7" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128*2}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
