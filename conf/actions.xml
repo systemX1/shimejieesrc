@@ -458,7 +458,7 @@
 				<Pose Image="/d1_04.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_05.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_06.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
-				<Pose Image="/d1_07.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" Sound="/我…不明白….wav" />
+				<Pose Image="/d1_07.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" Sound="/枯萎之刻….wav" />
 				<Pose Image="/d1_08.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_09.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_10.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
@@ -577,7 +577,7 @@
 				<Pose Image="/d1_27.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_28.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_29.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
-				<Pose Image="/d1_30.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" Sound="/枯萎之刻….wav" />
+				<Pose Image="/d1_30.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" Sound="/我…不明白….wav" />
 				<Pose Image="/d1_31.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_00.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
 				<Pose Image="/d1_01.png" ImageAnchor="96,203" Velocity="1,0" Duration="2" />
