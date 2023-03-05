@@ -3825,7 +3825,7 @@
 		<Action Name="GrabWallWithSound4" Type="Stay" BorderType="Wall">
 			<Animation>
 				<Pose Image="/d_00.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
-				<Pose Image="/d_01.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" Sound="/segments/现在的你，就像一只爱上了蕈类的野林猪，哭丧得像是被雷劈过的堇瓜一样。.wav" />
+				<Pose Image="/d_01.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" Sound="/segments/变聪明啦，值得嘉奖哦。.wav" />
 				<Pose Image="/d_02.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
 				<Pose Image="/d_03.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
 				<Pose Image="/d_04.png" ImageAnchor="0,128" Velocity="0,0" Duration="2" />
