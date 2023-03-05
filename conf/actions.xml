@@ -227,6 +227,42 @@
 				<Pose Image="/r_31.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 			</Animation>
 		</Action>
+        <Action Name="StandWithSound6" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/r_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_01.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/很多时候，我们直到经受切肤之痛，才不得不直视自身的懒惰，愚昧，鲁莽或傲慢。但大可不必为此懊悔，我们无法观测未来的所有可能性，只能靠这样略显笨拙的方式获取知识。学费而已，再正常不过啦。.wav" />
+				<Pose Image="/r_02.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_03.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_04.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_05.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_06.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_07.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_08.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_09.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_10.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_11.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_12.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_13.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_14.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_15.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_16.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_17.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_18.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_19.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_20.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_21.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_22.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_23.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_24.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_25.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_26.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_27.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_28.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_29.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_30.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+				<Pose Image="/r_31.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
 
 		<Action Name="Walk" Type="Move" BorderType="Floor">
 			<Animation>
@@ -1517,6 +1553,35 @@
 				<Pose Image="/bhc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/那些海鲜，它们在无边无际的黑暗中出生，成长在我所不了解的海底深处。要我吃下它们，就好像要我咽下一团脏兮兮的乌云一样。.wav" />
+                <Pose Image="/bhc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="SurprisedImplWithSound5" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/bhc_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/不知道净善宫该定价多少摩拉….wav" />
                 <Pose Image="/bhc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -4328,6 +4393,10 @@
 			<ActionReference Name="StandWithSound5" Duration="${64}" />
 			<ActionReference Name="Stand" Duration="${1280}" />
 		</Action>
+        <Action Name="StandUpWithSound6" Type="Sequence" Loop="false">
+			<ActionReference Name="StandWithSound6" Duration="${64}" />
+			<ActionReference Name="Stand" Duration="${1280}" />
+		</Action>
 		
 		<Action Name="Goodmorning" Type="Sequence" Loop="false">
 			<ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
@@ -4345,7 +4414,7 @@
 		</Action>
 		
 		<Action Name="SitDown" Type="Sequence" Loop="false">
-			<ActionReference Name="Sit" Duration="${82}" />
+			<ActionReference Name="Sit" Duration="${84}" />
 			<ActionReference Name="SitAndLookUp" Duration="${2500+Math.random()*500}" />
 			<ActionReference Name="Tis" Duration="${68}" />
 			<ActionReference Name="Stand" Duration="${64}" />
@@ -4354,25 +4423,25 @@
 		<Action Name="HugAranara" Type="Sequence" Loop="false">
 			<ActionReference Name="Huging" Duration="${100}" />
 			<ActionReference Name="Playing" Duration="${82}" />
-			<ActionReference Name="Tis2" Duration="${16}" />
+			<ActionReference Name="Tis2" Duration="${18}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="HugAranaraWithSound1" Type="Sequence" Loop="false">
 			<ActionReference Name="HugingWithSound1" Duration="${100}" />
 			<ActionReference Name="PlayingWithSound1" Duration="${82}" />
-			<ActionReference Name="Tis2" Duration="${16}" />
+			<ActionReference Name="Tis2" Duration="${18}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="HugAranaraWithSound2" Type="Sequence" Loop="false">
 			<ActionReference Name="Huging" Duration="${100}" />
 			<ActionReference Name="PlayingWithSound2" Duration="${82}" />
-			<ActionReference Name="Tis2" Duration="${16}" />
+			<ActionReference Name="Tis2" Duration="${18}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="HugAranaraWithSound3" Type="Sequence" Loop="false">
 			<ActionReference Name="HugingWithSound3" Duration="${100}" />
 			<ActionReference Name="PlayingWithSound3" Duration="${82}" />
-			<ActionReference Name="Tis2" Duration="${16}" />
+			<ActionReference Name="Tis2" Duration="${18}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 
@@ -4436,6 +4505,12 @@
             <ActionReference Name="SurprisedImplEnd" Duration="${20}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
+        <Action Name="SurprisedWithSound5" Type="Sequence" Loop="false">
+			<ActionReference Name="SurprisedImplWithSound5" Duration="${50}" />
+			<ActionReference Name="SurprisedImplRepeat" Duration="${56*2}" />
+            <ActionReference Name="SurprisedImplEnd" Duration="${20}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
 
 		<Action Name="AbilityQ" Type="Sequence" Loop="false">
 			<ActionReference Name="AbilityQImpl" Duration="${76}" />
@@ -4489,15 +4564,15 @@
 		</Action>
 
 		<Action Name="PlayOnTheSwing" Type="Sequence" Loop="false">
-			<ActionReference Name="PlayOnTheSwingImpl" Duration="${214+66}" />
+			<ActionReference Name="PlayOnTheSwingImpl" Duration="${140*2}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="PlayOnTheSwingWithSound1" Type="Sequence" Loop="false">
-			<ActionReference Name="PlayOnTheSwingImplWithSound1" Duration="${214+66}" />
+			<ActionReference Name="PlayOnTheSwingImplWithSound1" Duration="${206*2}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		<Action Name="PlayOnTheSwingWithSound2" Type="Sequence" Loop="false">
-			<ActionReference Name="PlayOnTheSwingImplWithSound2" Duration="${214+66}" />
+			<ActionReference Name="PlayOnTheSwingImplWithSound2" Duration="${206*2}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
 		
