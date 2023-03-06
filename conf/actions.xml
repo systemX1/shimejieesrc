@@ -1112,7 +1112,64 @@
                 <Pose Image="/hc_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 			</Animation>
 		</Action>
-
+        <Action Name="HeartImplWithSound3" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/hc_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/别灰心。你已经做得很好了，摸摸头。.wav" />
+				<Pose Image="/hc_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="HeartImplWithSound4" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/hc_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/谢谢你，我能明白你的好心肠，所以，我不会和你客气的。.wav" />
+				<Pose Image="/hc_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/hc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/hc_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
 
         <Action Name="WaveHandImplEnd" Type="Stay" BorderType="Floor">
 			<Animation>
@@ -1582,6 +1639,64 @@
 				<Pose Image="/bhc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/不知道净善宫该定价多少摩拉….wav" />
+                <Pose Image="/bhc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="SurprisedImplWithSound6" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/bhc_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/你是揣着明白装糊涂….wav" />
+                <Pose Image="/bhc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_21.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_22.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_23.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_24.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="SurprisedImplWithSound7" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/bhc_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/bhc_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/bhc_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/有点伤心.wav" />
                 <Pose Image="/bhc_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
                 <Pose Image="/bhc_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -2986,6 +3101,90 @@
         <Action Name="PutPalmsTogetherImplWithSound7" Type="Stay" BorderType="Floor">
 			<Animation>
 				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/现在的你，脑子就像蕈猪的脑子一样空空如也..见识.wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="PutPalmsTogetherImplWithSound8" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/我看你，脑子就像蕈猪的脑子一样空空如也。我想了好久，也不知道世上居然还有这种可能性….wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="PutPalmsTogetherImplWithSound9" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/我看你哭丧得像是被雷劈过的堇瓜一样，对整个须弥而言都是一大幸事.wav" />
+				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_4.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_5.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_6.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_7.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_8.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_9.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_10.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_11.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_12.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_13.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_14.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_15.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_16.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_17.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_18.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_19.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_20.png" ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+                <Pose Image="/yb_21.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_22.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+				<Pose Image="/yb_23.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
+			</Animation>
+		</Action>
+        <Action Name="PutPalmsTogetherImplWithSound10" Type="Stay" BorderType="Floor">
+			<Animation>
+				<Pose Image="/yb_0.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" Sound="/segments/你拥有很超前的知识体系.wav" />
 				<Pose Image="/yb_1.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_2.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
 				<Pose Image="/yb_3.png"  ImageAnchor="95,214" Velocity="0,0" Duration="2" />
@@ -4612,6 +4811,14 @@
 			<ActionReference Name="HeartImplWithSound2" Duration="${50}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
+        <Action Name="HeartWithSound3" Type="Sequence" Loop="false">
+			<ActionReference Name="HeartImplWithSound3" Duration="${50}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+		<Action Name="HeartWithSound4" Type="Sequence" Loop="false">
+			<ActionReference Name="HeartImplWithSound4" Duration="${50}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
 		
 		<Action Name="WaveHand" Type="Sequence" Loop="false">
 			<ActionReference Name="WaveHandImpl" Duration="${60}" />
@@ -4663,6 +4870,18 @@
         <Action Name="SurprisedWithSound5" Type="Sequence" Loop="false">
 			<ActionReference Name="SurprisedImplWithSound5" Duration="${50}" />
 			<ActionReference Name="SurprisedImplRepeat" Duration="${56*2}" />
+            <ActionReference Name="SurprisedImplEnd" Duration="${20}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="SurprisedWithSound6" Type="Sequence" Loop="false">
+			<ActionReference Name="SurprisedImplWithSound6" Duration="${50}" />
+			<ActionReference Name="SurprisedImplRepeat" Duration="${56*12}" />
+            <ActionReference Name="SurprisedImplEnd" Duration="${20}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="SurprisedWithSound7" Type="Sequence" Loop="false">
+			<ActionReference Name="SurprisedImplWithSound7" Duration="${50}" />
+			<ActionReference Name="SurprisedImplRepeat" Duration="${56*9}" />
             <ActionReference Name="SurprisedImplEnd" Duration="${20}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
@@ -4779,6 +4998,24 @@
 			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
 			<ActionReference Name="NewActionsEnd" />
 		</Action>
+        <Action Name="PutPalmsTogetherWithSound8" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound8" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128*3}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="PutPalmsTogetherWithSound9" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound9" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128*3}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
+        <Action Name="PutPalmsTogetherWithSound10" Type="Sequence" Loop="false">
+			<ActionReference Name="PutPalmsTogetherImplWithSound10" Duration="${48}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeat" Duration="${128*3}" />
+			<ActionReference Name="PutPalmsTogetherImplRepeatEnd" Duration="${6}" />
+			<ActionReference Name="NewActionsEnd" />
+		</Action>
 		
 		<Action Name="NewActionsEnd" Type="Sequence" Loop="false">
 			<ActionReference Name="WaveHandImplEnd" Duration="${50 * 5}" />
@@ -4796,7 +5033,7 @@
 		</Action>
         <Action Name="LieDownWithSound2" Type="Sequence" Loop="false">
 			<ActionReference Name="SleepingWithSound2" Duration="${64}" />
-			<ActionReference Name="Sleeping" Duration="${2560}" />
+			<ActionReference Name="Sleeping" Duration="${640+Math.random()*1000}" />
 			<ActionReference Name="WaveHandImplWithSound1" Duration="${58}" />
             <ActionReference Name="NewActionsEnd" />
 		</Action>

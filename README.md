@@ -2,7 +2,7 @@
 
 ## Platform
 
-Windows Vista or higher
+Windows 8.1 or higher
 
 ## Dependency
 
