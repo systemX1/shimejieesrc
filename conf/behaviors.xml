@@ -38,6 +38,7 @@
 		<Behavior Name="Fly4TimeAndLand" Frequency="10" />
 		<Behavior Name="Fly5TimeAndLand" Frequency="10" />
 		<Behavior Name="Land" Frequency="0" Hidden="true" />
+		<Behavior Name="SplitIntoTwo" Frequency="0" Hidden="true" />
 		
 		<Behavior Name="SitAndSpinHead" Frequency="0" />
         <Behavior Name="SitDown" Frequency="0" />
@@ -50,17 +51,16 @@
 		<Behavior Name="AbilityE" Frequency="0" />
 		<Behavior Name="StickTongueOutWithSound2" Frequency="0" />
 		<Behavior Name="PutPalmsTogetherWithSound1" Frequency="0" />
-		<Behavior Name="PutPalmsTogetherWithSound4" Frequency="0" />
-		<Behavior Name="PutPalmsTogetherWithSound5" Frequency="0" />
-		<Behavior Name="PutPalmsTogetherWithSound6" Frequency="0" />
-		<Behavior Name="PutPalmsTogetherWithSound7" Frequency="0" />
-
 		<Behavior Name="LieDownWithSound1" Frequency="0" />
 		<Behavior Name="LieDownWithSound2" Frequency="0" />
 		<Behavior Name="LandWithSound1" Frequency="0" Hidden="true" />
 		<Behavior Name="Goodmorning" Frequency="0" />
 		<Behavior Name="NapTime" Frequency="0" />
 		<Behavior Name="Sunset" Frequency="0" />
+		<Behavior Name="PutPalmsTogetherWithSound4" Frequency="0" />
+		<Behavior Name="PutPalmsTogetherWithSound5" Frequency="0" />
+		<Behavior Name="PutPalmsTogetherWithSound6" Frequency="0" />
+		<Behavior Name="PutPalmsTogetherWithSound7" Frequency="0" />
 		
 		<Behavior Name="HoldOntoWallManually" Frequency="0" />
 		<Behavior Name="HoldOntoCeilingManually" Frequency="0" />
@@ -76,35 +76,20 @@
 		
 		<!-- On the Floor -->
 		<Condition Condition="#{mascot.environment.floor.isOn(mascot.anchor) || mascot.environment.activeIE.topBorder.isOn(mascot.anchor)}">
-			<Behavior Name="SplitIntoTwo" Frequency="9300" Condition="#{mascot.totalCount &lt; 3}" >
-				<NextBehavior Add="true">
-					<BehaviorReference Name="FallUpToCeiling" Frequency="100" />
-					<BehaviorReference Name="GrabWorkAreaBottomLeftWall" Frequency="50" />
-					<BehaviorReference Name="GrabWorkAreaBottomRightWall" Frequency="50" />
-				</NextBehavior>
-			</Behavior>
-			<Behavior Name="SplitIntoTwo" Frequency="5700" Condition="#{mascot.totalCount &lt; 5}" >
-				<NextBehavior Add="true">
-					<BehaviorReference Name="FallUpToCeiling" Frequency="100" />
-					<BehaviorReference Name="GrabWorkAreaBottomLeftWall" Frequency="50" />
-					<BehaviorReference Name="GrabWorkAreaBottomRightWall" Frequency="50" />
-				</NextBehavior>
-			</Behavior>
-			
-			<Behavior Name="StandUp" Frequency="200" Hidden="true"/>
-			<Behavior Name="SitDown" Frequency="600">
+			<Behavior Name="StandUp" Frequency="300" Hidden="true"/>
+			<Behavior Name="SitDown" Frequency="500">
 				<NextBehavior Add="true">
 					<BehaviorReference Name="SitWhileDanglingLegs" Frequency="200" />
 					<BehaviorReference Name="LieDown" Frequency="100" />
 				</NextBehavior>
 			</Behavior>
 			
-			<Behavior Name="SitWhileDanglingLegs" Frequency="350" />
+			<Behavior Name="SitWhileDanglingLegs" Frequency="300" />
 			<Behavior Name="SitAndSpinHead" Frequency="300" />
-			<Behavior Name="WarpUpToCeiling" Frequency="750" Condition="#{mascot.totalCount &gt;= 3}" />
-			<Behavior Name="FallUpToCeiling" Frequency="250" Condition="#{mascot.totalCount &gt;= 3}" />
-            <Behavior Name="WarpUpToCeiling" Frequency="150" />
-			<Behavior Name="FallUpToCeiling" Frequency="50" />
+			<Behavior Name="WarpUpToCeiling" Frequency="750" Condition="#{mascot.totalCount &gt; 3}" />
+			<Behavior Name="FallUpToCeiling" Frequency="250" Condition="#{mascot.totalCount &gt; 3}" />
+            <Behavior Name="WarpUpToCeiling" Frequency="300" />
+			<Behavior Name="FallUpToCeiling" Frequency="150" />
 			<Behavior Name="FlyToCeiling" Frequency="400" />
 			<Behavior Name="Fly" Frequency="200">
 				<NextBehavior Add="true">
@@ -317,9 +302,10 @@
 			<Behavior Name="StandUpWithSound5"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 1}" />
 			<Behavior Name="StandUpWithSound6"            Frequency="50"  Hidden="true" Condition="#{mascot.totalCount &lt;= 1}" />
 			
-            <Behavior Name="LieDownWithSound1"            Frequency="300"               Condition="#{mascot.totalCount &lt;= 5}" />
-            <Behavior Name="LieDownWithSound1"            Frequency="100"               />
-            <Behavior Name="LieDownWithSound2"            Frequency="100"               />
+			<Behavior Name="LieDownWithSound1"            Frequency="150"               Condition="#{mascot.totalCount &lt;= 5}" />
+			<Behavior Name="LieDownWithSound1"            Frequency="75"               />
+			<Behavior Name="LieDownWithSound2"            Frequency="150"               Condition="#{mascot.totalCount &lt;= 5}" />
+			<Behavior Name="LieDownWithSound2"            Frequency="75"               />
 			<Behavior Name="LieDown" Frequency="100" Hidden="true" >
 				<NextBehavior Add="true">
 					<BehaviorReference Name="LieDownWithSound1" Frequency="1000" />
@@ -333,9 +319,11 @@
 				</NextBehavior>
 			</Behavior>
 			
-			<Behavior Name="SplitIntoTwo" Frequency="3900" Condition="#{mascot.totalCount &lt; 7}" />
-			<Behavior Name="SplitIntoTwo" Frequency="75" Condition="#{mascot.totalCount &lt; 11}" />
-			<Behavior Name="SplitIntoTwo" Frequency="25" Condition="#{mascot.totalCount &lt; 17}" /> 	
+			<Behavior Name="SplitIntoTwo" Frequency="19300" Condition="#{mascot.totalCount &lt; 3}" />
+			<Behavior Name="SplitIntoTwo" Frequency="8700" Condition="#{mascot.totalCount &lt; 5}" />
+			<Behavior Name="SplitIntoTwo" Frequency="5900" Condition="#{mascot.totalCount &lt; 7}" />
+			<Behavior Name="SplitIntoTwo" Frequency="1800" Condition="#{mascot.totalCount &lt; 11}" />
+			<Behavior Name="SplitIntoTwo" Frequency="25" Condition="#{mascot.totalCount &lt; 17}" />
 		</Condition> 
 
 		<!-- On the Wall -->
@@ -344,7 +332,6 @@
 					mascot.environment.activeIE.leftBorder.isOn(mascot.anchor) ) : (
 					mascot.environment.workArea.leftBorder.isOn(mascot.anchor) || 
 					mascot.environment.activeIE.rightBorder.isOn(mascot.anchor) ) }">
-			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
 			<Behavior Name="HoldOntoWall" Frequency="400" Hidden="true"/>
 			<Behavior Name="Fly" Frequency="50">
 				<NextBehavior Add="true">
@@ -363,20 +350,20 @@
 			<Behavior Name="JumpFromLeftWall" Frequency="75" />
 			<Behavior Name="JumpFromRightWall" Frequency="75" />
 			<Behavior Name="FallFromWall" Frequency="100" Condition="${!mascot.environment.floor.isOn(mascot.anchor)}" Hidden="true" />
-			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" /> 	
+			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />
+			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" />
 		</Condition>
 		
 		<!-- On the Ceiling -->
 		<Condition Condition="#{mascot.environment.ceiling.isOn(mascot.anchor) || mascot.environment.activeIE.bottomBorder.isOn(mascot.anchor)}">
-			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
 			<Behavior Name="HoldOntoCeiling" Frequency="500"  Hidden="true"/>
 			<Behavior Name="FallFromCeiling" Frequency="100" Hidden="true" />
-			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" /> 	
+			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />
+			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" />
 		</Condition>
 		
 		<!-- On Work Area Floor -->
 		<Condition Condition="#{mascot.environment.floor.isOn(mascot.anchor)}">
-			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
 			<Behavior Name="FlyAndGrabLeftWall" Frequency="500" />
 			<Behavior Name="FlyAndGrabRightWall" Frequency="300" />
 
@@ -412,8 +399,9 @@
 			<Behavior Name="WalkAndGrabBottomRightWall" Frequency="75" Hidden="true" />
 			<Behavior Name="JumpFromBottomOfIE" Frequency="75" Condition="#{mascot.anchor.x &gt;= mascot.environment.activeIE.left &amp;&amp;
 				mascot.anchor.x &lt; mascot.environment.activeIE.right}" Hidden="true" />
-				
-			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" /> 	
+
+			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />
+			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" />
 		</Condition>
 		
 		<!-- On Work Area Facing the Wall -->
@@ -430,7 +418,6 @@
 		
 		<!-- On Top of IE -->
 		<Condition Condition="#{mascot.environment.activeIE.topBorder.isOn(mascot.anchor)}">
-			<Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />	
 			<Behavior Name="WalkAlongIECeiling" Frequency="100" Hidden="true" />
 			<Behavior Name="RunAlongIECeiling" Frequency="100" Hidden="true" />
 			<Behavior Name="CrawlAlongIECeiling" Frequency="10" Hidden="true">
@@ -447,6 +434,8 @@
 			<Behavior Name="WalkRightAlongIEAndSit" Frequency="100" Hidden="true" />
 			<Behavior Name="WalkLeftAlongIEAndJump" Frequency="100" Hidden="true" />
 			<Behavior Name="WalkRightAlongIEAndJump" Frequency="100" Hidden="true" />
+            <Behavior Name="SplitIntoTwo" Frequency="7300" Condition="#{mascot.totalCount &lt; 3}" />
+			<Behavior Name="SplitIntoTwo" Frequency="100" Condition="#{mascot.totalCount &lt; 7}" />
 		</Condition>
 		
 		<!-- On IE's Side -->

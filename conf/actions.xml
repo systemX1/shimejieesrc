@@ -122,7 +122,7 @@
 		<Action Name="StandWithSound3" Type="Stay" BorderType="Floor">
 			<Animation>
 				<Pose Image="/r_00.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
-				<Pose Image="/r_01.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/那些海鲜，它们在无边无际的黑暗中出生，成长在我所不了解的海底深处。要我吃下它们，就好像要我咽下一团脏兮兮的乌云一样。.wav" />
+				<Pose Image="/r_01.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" Sound="/打扰啦？我要从烟囱进来看看喽。.wav" />
 				<Pose Image="/r_02.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/r_03.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
 				<Pose Image="/r_04.png" ImageAnchor="64,180" Velocity="0,0" Duration="2" />
